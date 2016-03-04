@@ -1,22 +1,24 @@
 #nav {
-	margin-left:20%;
+	margin-left:10%;
 	margin-right:10%;
+	letter-spacing:.5em;
+	line-spacing:2em;
+	font-size:.75em;
 }
 
 a:link {
-	margin-left:5%;
+	margin-left:8%;
     text-decoration: none;
 	font-family:sans-serif;
-	color:#666
+	color:#191a1c
 	
 }
 a:hover {
-	color:#333;
+	color:green;
 }
 
 a:active {
-	color:#900;
-
+	color:#bcc1ce;
 }
 #link {
 	margin-left:30%;
@@ -24,8 +26,6 @@ a:active {
 	margin-top:20px;
 	margin-bottom:20px;
 	border-top:1px solid black;
-
-
 }
 #caption {
 	font-family:sans-serif;
@@ -42,10 +42,14 @@ a:active {
 }
 
 #insta {
-		margin:50px;
+		position:center;
 }
+
 #twitter {
-		margin:50px;
+	position:center;
+}
+.twitter-mention-button {
+		margin:5px;
 
 }
 #bio {
@@ -63,7 +67,7 @@ a:active {
 	max-width:500px;
 }
 #mail {
-	margin:50px;
+	position:center;
 }
 #main {
 	float:left;
@@ -185,8 +189,6 @@ h1 {
 	float:left;
 	margin-left:20%;
     margin-bottom:30px;
-
-
 }
 .dates {
 	font-family:sans-serif;
