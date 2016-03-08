@@ -1,20 +1,58 @@
-#nav {
-	margin-left:10%;
-	margin-right:10%;
+.dropbtn {
+	background-image: url("menu40.png");
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+	margin-top:10px;
+    border: none;
+    cursor: pointer;
+	z-index:1;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	border-radius:5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
 	letter-spacing:.5em;
-	line-spacing:2em;
 	font-size:.75em;
+	padding-right:10px;
+	border-radius:5px;
+	
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
 }
 
 a:link {
-	margin-left:8%;
     text-decoration: none;
 	font-family:sans-serif;
-	color:#191a1c
-	
+	color:black;
 }
 a:hover {
-	color:green;
+	color:red;
 }
 
 a:active {
@@ -38,7 +76,33 @@ a:active {
 	height: auto;
 	width: auto;
 	margin-top:10px;
-	
+}
+
+
+body {
+	width:100%;
+}
+
+#name {
+	position:relative;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:2em;
+	width:100%;
+	z-index:-3;
+}
+
+#caption {
+	font-family:sans-serif;
+	font-weight:100;
+	letter-spacing:1px;
+	line-height:2em;
+	font-size:.75em;
+	text-align: left;
+	position: relative;
+	height: auto;
+	width: auto;
+	margin-top:10px;
 }
 
 #insta {
@@ -48,10 +112,7 @@ a:active {
 #twitter {
 	position:center;
 }
-.twitter-mention-button {
-		margin:5px;
 
-}
 #bio {
 	font-family:sans-serif;
 	position:relative;
@@ -70,18 +131,23 @@ a:active {
 	position:center;
 }
 #main {
+	position:relative;
 	float:left;
-	width:70%;
-}
-#morecolumn {
-	float:left;
-	height:900px;
+	width:800px;
+	clear:both;
+	margin-top:80px;
+	z-index:-1;
 }
 #mainimage {
-	float:left;
-    margin-left:20%;
-	margin-top:30px;
+	margin-left:20%;
 }
+
+#morecolumn {
+	position:relative;
+	float:left;
+	z-index:2;
+}
+
 .bigimage {
 	float:left;
     margin-left:30%;
@@ -90,111 +156,138 @@ a:active {
 	width:300px;
 }
 
+
 #more {
+	position:relative;
 	float:left;
-	margin-left:20%;
-	margin-top:30px;
+	margin-top:80px;
 	font-family:sans-serif;
 	font-weight:200;
 }
 
 #moreimages {
-	clear:both;
 	float:left;
-	margin-left:20%;
+	clear:both;
 	margin-top:30px;
 }
 #moreimages2 {
 	clear:both;
 	float:left;
-	margin-left:20%;
+	margin-top:30px;
+}
+#moreimages3 {
+	clear:both;
+	float:left;
 	margin-top:30px;
 }
 
-#name {
-	clear:both;
-	font-family:sans-serif;
-	font-size:2em;
-	width:100%;
-	text-align:center;
-	margin-top:50px;
-}
-h1 {
-	font-family:sans-serif;
-	margin-bottom:30px;
-}
-#contactstuff {
-	Margin-left:40%;
-	float:left;
-}
+
 #show9 {
 	clear:both;
 	font-family:sans-serif;
 	float:left;
 	margin-bottom:30px;
-	margin-left:20%
+	margin-left:30%
 }
 #show8 {
 	clear:both;
 	font-family:sans-serif;
 	float:left;
 	margin-bottom:30px;
-	margin-left:20%
+	margin-left:30%
 }
 #show7 {
 	clear:both;
 	font-family:sans-serif;
 	float:left;
 	margin-bottom:30px;
-	margin-left:20%
+	margin-left:30%
 }
 #show6 {
 	clear:both;
 	font-family:sans-serif;
 	float:left;
 	margin-bottom:30px;
-	margin-left:20%
+	margin-left:30%
 }
 #show5 {
 	clear:both;
 	font-family:sans-serif;
 	float:left;
 	margin-bottom:30px;
-	margin-left:20%
+	margin-left:30%
 }
 #show4 {
 	clear:both;
 	font-family:sans-serif;
 	float:left;
 	margin-bottom:30px;
-	margin-left:20%
+	margin-left:30%
 }
 #show3 {
 	clear:both;
 	font-family:sans-serif;
 	float:left;
 	margin-bottom:30px;
-	margin-left:20%
+	margin-left:30%
 }
 #show2 {
 	clear:both;
 	font-family:sans-serif;
 	float:left;
 	margin-bottom:30px;
-	margin-left:20%
+	margin-left:30%
 }
 #show1 {
 	clear:both;
 	font-family:sans-serif;
 	float:left;
 	margin-left:20%;
-    margin-bottom:30px;
+	margin-left:30%
 }
 .dates {
 	font-family:sans-serif;
 	float:left;
-	margin-left:5%;
+	margin-left:2%;
 	letter-spacing:1px;
 	line-height:1.5em;
 	margin-bottom:60px;
 }
+
+#insta {
+		position:relative;
+}
+
+#twitter {
+	    position:relative;
+		
+}
+#mail {
+	    position:relative;
+		
+}
+
+#bio {
+	font-family:sans-serif;
+	position:relative;
+	float:left;
+	width:100%;
+	margin-bottom:30px;
+	margin-left:20%;
+	margin-top:50px;
+	margin-right:40%;
+	letter-spacing:1px;
+	line-height:1.5em;
+	text-align:left;
+	max-width:500px;
+}
+
+
+h1 {
+	font-family:sans-serif;
+	margin-bottom:30px;
+}
+#contactstuff {
+	margin-left:40%;
+	float:left;
+
